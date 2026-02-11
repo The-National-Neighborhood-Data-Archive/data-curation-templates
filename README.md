@@ -8,7 +8,7 @@ The [National Neighborhood Data Archive (NaNDA)](https://nanda.isr.umich.edu/) i
 
 ## Templates
 
-### validate_nanda_topic_years_auto.do
+### validate_nanda_topic_years_loop.do
 Performs initial quality checks on newly received datasets:
 - Verifies geographic identifier format and completeness
 - Checks observation counts against expected totals
@@ -16,14 +16,14 @@ Performs initial quality checks on newly received datasets:
 - Identifies missing data patterns
 - Exports preliminary data dictionary for review
 
-### turnover_nanda_topic_years_auto.do
+### turnover_nanda_topic_years_loop.do
 Converts working datasets to internally curated versions:
 - Standardizes variable naming conventions
 - Corrects data types and preserves leading zeros
 - Applies comprehensive variable labels
 - Prepares datasets for publication
 
-### publish_nanda_topic_years_auto.do
+### publish_nanda_topic_years_loop.do
 Finalizes datasets for public release:
 - Saves public versions in Stata format
 - Exports CSV versions for broader accessibility
