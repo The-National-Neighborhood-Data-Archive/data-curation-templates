@@ -30,15 +30,16 @@ Finalizes datasets for public release:
 - Generates detailed data dictionaries
 - Processes all four geographic levels automatically
 
-### run_make_TEMPLATE_sic4_sic6_sic8_category_GEO_counts_vDATE.do
+### [NETS/](NETS/) — NETS SIC counts driver template
 Driver template for building neighborhood-level business counts from the
 National Establishment Time Series (NETS) database:
 - Builds establishment counts per geography-year for user-defined SIC
   business categories, then merges categories into one dataset
 - Supports tract10, tract20, zcta10, and zcta20 geographies
-- Configuration and label-escaping rules are documented in the template header
 - Requires licensed NETS data access and a counts subroutine not included in
   this repository (NETS is proprietary); the template covers the driver logic only
+- See [NETS/README.md](NETS/README.md) for full usage, configuration, and
+  label-escaping documentation
 
 ## Usage
 
