@@ -87,8 +87,8 @@ Questions about NaNDA or these templates? Visit [nanda.isr.umich.edu](https://na
 
 Archived on Zenodo. Cite all versions with the concept DOI
 [10.5281/zenodo.22018832](https://doi.org/10.5281/zenodo.22018832), or a
-specific release by its version DOI (v1.0.0:
-[10.5281/zenodo.22018833](https://doi.org/10.5281/zenodo.22018833)). See
+specific release by its version DOI (v1.0.1:
+[10.5281/zenodo.22018855](https://doi.org/10.5281/zenodo.22018855)). See
 CITATION.cff for the citation format.
 
 ## License
