@@ -1,5 +1,7 @@
 # NaNDA Data Curation Templates
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22018832.svg)](https://doi.org/10.5281/zenodo.22018832)
+
 This repository contains standardized Stata templates for the National Neighborhood Data Archive (NaNDA) data curation workflow. These templates automate quality control, variable standardization, and data dictionary generation across multiple geographic boundary definitions.
 
 ## About NaNDA
@@ -80,6 +82,14 @@ All geographic identifiers are stored as strings with leading zeros preserved.
 ## Contact
 
 Questions about NaNDA or these templates? Visit [nanda.isr.umich.edu](https://nanda.isr.umich.edu/) or email nanda-info@umich.edu.
+
+## Citation
+
+Archived on Zenodo. Cite all versions with the concept DOI
+[10.5281/zenodo.22018832](https://doi.org/10.5281/zenodo.22018832), or a
+specific release by its version DOI (v1.0.0:
+[10.5281/zenodo.22018833](https://doi.org/10.5281/zenodo.22018833)). See
+CITATION.cff for the citation format.
 
 ## License
 

@@ -1,5 +1,7 @@
 # NETS Code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22018832.svg)](https://doi.org/10.5281/zenodo.22018832)
+
 Stata template code for generating neighborhood-level business counts from the
 [National Establishment Time Series (NETS)](https://youreconomy.org/nets/) database,
 by SIC industry category and geography (census tract or ZCTA).
@@ -58,6 +60,12 @@ template header: `(comma)`, `(and)`, `(lp)`, and `(rp)`.
 
 Based on a template by Philippa Clarke (pjclarke); adapted and maintained by
 Will Clary.
+
+## Citation
+
+This template is archived on Zenodo as part of the [NaNDA Data Curation
+Templates](https://github.com/The-National-Neighborhood-Data-Archive/data-curation-templates):
+DOI [10.5281/zenodo.22018832](https://doi.org/10.5281/zenodo.22018832).
 
 ## License
 
