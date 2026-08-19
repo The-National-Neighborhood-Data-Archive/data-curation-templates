@@ -1,7 +1,5 @@
 # NaNDA Data Curation Templates
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22018832.svg)](https://doi.org/10.5281/zenodo.22018832)
-
 This repository contains standardized Stata templates for the National Neighborhood Data Archive (NaNDA) data curation workflow. These templates automate quality control, variable standardization, and data dictionary generation across multiple geographic boundary definitions.
 
 ## About NaNDA
@@ -32,20 +30,7 @@ Finalizes datasets for public release:
 - Generates detailed data dictionaries
 - Processes all four geographic levels automatically
 
-### [NETS/](NETS/) — NETS SIC counts driver template
-Driver template for building neighborhood-level business counts from the
-National Establishment Time Series (NETS) database:
-- Builds establishment counts per geography-year for user-defined SIC
-  business categories, then merges categories into one dataset
-- Supports tract10, tract20, zcta10, and zcta20 geographies
-- Requires licensed NETS data access and a counts subroutine not included in
-  this repository (NETS is proprietary); the template covers the driver logic only
-- See [NETS/README.md](NETS/README.md) for full usage, configuration, and
-  label-escaping documentation
-
 ## Usage
-
-The three curation templates (validate → turnover → publish) run sequentially:
 
 1. Update parameters at the top of each template (lines 8-11):
    - `workdir`: Your dataset folder path
@@ -59,8 +44,6 @@ The three curation templates (validate → turnover → publish) run sequentiall
 3. Add dataset-specific processing steps where indicated
 
 4. Run sequentially: validate → turnover → publish
-
-The NETS counts template runs standalone; see its header comments for setup.
 
 ## Requirements
 
@@ -82,14 +65,6 @@ All geographic identifiers are stored as strings with leading zeros preserved.
 ## Contact
 
 Questions about NaNDA or these templates? Visit [nanda.isr.umich.edu](https://nanda.isr.umich.edu/) or email nanda-info@umich.edu.
-
-## Citation
-
-Archived on Zenodo. Cite all versions with the concept DOI
-[10.5281/zenodo.22018832](https://doi.org/10.5281/zenodo.22018832), or a
-specific release by its version DOI (v1.0.1:
-[10.5281/zenodo.22018855](https://doi.org/10.5281/zenodo.22018855)). See
-CITATION.cff for the citation format.
 
 ## License
 
