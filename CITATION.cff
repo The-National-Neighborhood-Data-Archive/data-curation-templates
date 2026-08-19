@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these templates, please cite them as below."
+type: software
+title: "NaNDA Data Curation Templates"
+authors:
+  - family-names: Gypin
+    given-names: Lindsay
+    affiliation: "National Neighborhood Data Archive, University of Michigan"
+  - family-names: Clary
+    given-names: Will
+    affiliation: "National Neighborhood Data Archive, University of Michigan"
+license: MIT
+repository-code: "https://github.com/The-National-Neighborhood-Data-Archive/data-curation-templates"
+url: "https://nanda.isr.umich.edu/"
+keywords:
+  - Stata
+  - data curation
+  - neighborhood data
+  - NaNDA
+  - NETS
